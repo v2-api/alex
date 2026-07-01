@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander's Farm Market and Greenhouse</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .product {
+            display: flex;
+            gap: 25px;
+            margin-bottom: 40px;
+            align-items: flex-start;
+        }
+
+        .product img {
+            width: 250px;
+            border: 1px solid #a9c4a9;
+            flex-shrink: 0;
+        }
+
+        .product h3 {
+            margin-top: 0;
+            font-weight: normal;
+            color: #2f5d2f;
+        }
+
+        @media (max-width: 700px) {
+            .product {
+                flex-direction: column;
+            }
+
+            .product img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Alexander's Farm Market and Greenhouse</h1>
+        <div class="tagline">
+            Seasonal Produce, Flowers, and Greenhouse Plants for Whitmore Lake and Southeast Michigan
+        </div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/products">Products</a>
+            <a href="/blog">Blog</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+    <h2>Products</h2>
+    <div class="product">
+        <img src="https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/527224918_1273339447920021_139289971810119174_n.jpg?stp=dst-jpg_tt6&cstp=mx1814x2048&ctp=s1814x2048&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JnnoQ9efRn0Q7kNvwG3NmuV&_nc_oc=AdouHjhS770AwW68BYJYhLkTgVxm6U5Mpe1R6pltwkdTEid7PQbhcRG31KVfjwqr0PtuqnvFy2wqu5hWW8TdPhyp&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=G0AWVgJGMyO3oxDR7v0v2A&_nc_ss=7b2a8&oh=00_AQCZBcEDRRdaG-4YoLfmVjEveY6mSd9CX2P5GzmnmU1L6Q&oe=6A4B22EA" alt="Bulk Fertilizer">
+        <div>
+            <h3>Product 1</h3>
+            <p>
+                Example product.
+            </p>
+        </div>
+    </div>
+    <div class="product">
+        <img src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/527881754_1273333874587245_1558705993345351915_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx960x634&ctp=s960x634&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gF6FGuCY8bkQ7kNvwHemqeh&_nc_oc=Adq0AShqhNPneRU4S2LRqLcTCXj8maIYnr9JrRRUUP-xmXz27ltnaZGjsCTQJDqvsQixCqTWEn6MdUS488TmJ28H&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=sN-kO-7mUC8lZykAJudNrQ&_nc_ss=7b2a8&oh=00_AQDo6k4PNPU9PucFx_B9Jomc72X9INDqRANRfMbcGMOJ4A&oe=6A4B2389" alt="Starter Fertilizer">
+        <div>
+            <h3>Product 2</h3>
+            <p>
+                Example product.
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        © 2026 Alexander's Farm Market and Greenhouse • Whitmore Lake, Michigan • <a href="/privacy">Privacy</a>
+    </div>
+</div>
+</body>
+</html>
